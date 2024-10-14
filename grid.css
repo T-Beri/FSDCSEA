@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    height:400px;
+    border:2px solid red;
+    grid-template-columns: 200px 400px auto;
+}
+
+.child1{
+    background-color: aquamarine;
+}
+
+.child2{
+    background-color: blue;
+}
+
+.child3{
+    background-color: blueviolet;
+}
+.child4{
+    grid-column: 1/13;
+    grid-row: 4/5;
+    height:400px;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.child41,.child42,.child43,.child44{
+    height:250px;
+    border:2px solid yellow ;
+    width: 250px;
+}

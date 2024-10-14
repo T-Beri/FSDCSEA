@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    paddng:20px;
+    margin:10px;
+    height: 200px;
+    background: aqua;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav>.nav-items>*{
+    margin-right: 50px;
+}
+.logo{
+    height: inherit;
+    width: 50px;
+}
+
+.logo>img{
+    height: inherit;
+    width: inherit;
+    object-fit: contain;
+}
