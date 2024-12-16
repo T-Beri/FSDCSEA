@@ -1,0 +1,8 @@
+.icard {
+    border:10px solid red;
+    height:300px;
+    width:300px;
+    background-color: antiquewhite;
+    color:black;
+    margin-left:200px
+}
